@@ -1,0 +1,42 @@
+#primary-menu {
+	float: unset;	
+	display: flex;
+	flex: 2;
+}
+
+#header.full-header #primary-menu > ul {
+	border-right: none;
+}
+
+#primary-menu > .filler {
+	flex: 2;
+}
+
+#logo {
+	float: unset;
+
+}
+
+#header-menu {
+	display: flex;
+}
+
+.top-links ul div.top-link-section {
+	display: none;
+	pointer-events: none;
+	position: absolute;
+	z-index: 210;
+	line-height: 1.5;
+	background: #FFF;
+	border: 0;
+	top: 44px;
+	left: 0;
+	width: 140px;
+	margin: 0;
+	border-top: 1px solid #1ABC9C;
+	border-bottom: 1px solid #EEE;
+	box-shadow: 0 0 5px -1px rgba(0,0,0,0.2);
+	-moz-box-shadow: 0 0 5px -1px rgba(0,0,0,0.2);
+	-webkit-box-shadow: 0 0 5px -1px rgba(0,0,0,0.2);
+}
+.bgcolor #header-wrap { background-color: #000000 !important; }
