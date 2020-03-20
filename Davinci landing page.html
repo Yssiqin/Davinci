@@ -73,9 +73,11 @@
 	============================================= -->
 	<div id="wrapper" class="clearfix">
 
+		<div id="header1"></div>
+
 		<!-- Header
 		============================================= -->
-		<header id="header" class="full-header" data-sticky-class="not-dark">
+		<header id="header" class="full-header transparent-header" data-sticky-class="not-dark">
 
 			<div id="header-wrap">
 
@@ -87,7 +89,7 @@
 					<!-- Logo
 					============================================= -->
 					<div id="logo">
-						<a href="Davinci landing page.html" class="standard-logo" data-dark-logo="images/logo-dark.png"><img src="Davinci image/logo.png" alt="Canvas Logo"></a>
+						<a href="Davinci landing page.html" class="standard-logo" data-dark-logo="images/logo-dark.png"><img src="Davinci image/logo.png"s alt="Canvas Logo"></a>
 						<a href="Davinci landing page.html" class="retina-logo" data-dark-logo="images/logo-dark@2x.png"><img src="Davinci image/logo.png" alt="Canvas Logo"></a>
 					</div><!-- #logo end -->
 
@@ -107,7 +109,7 @@
 						<!-- Top Cart
 						============================================= -->
 						<div id="top-cart">
-							<div class="nav menu"><a href="Dealers.html">Find Dealer</a> / <a href="#">Join D Club</a>
+							<div class="nav menu"><a href="Dealers.html">Find Dealer</a>
 							<a href="#" id="top-cart-trigger"><i class="icon-github"></i><span>5</span></a>
 							<div class="top-cart-content">
 								<div class="top-cart-title">
@@ -148,7 +150,7 @@
 							<!-- BACKGROUND VIDEO LAYER -->
 							<div class="rs-background-video-layer" data-forcerewind="on" data-volume="mute" data-videowidth="100%" data-videoheight="100%" data-videomp4="include/rs-plugin/demos/assets/videos/Broadway.mp4" data-videopreload="preload" data-videoloop="loop" data-forceCover="1" data-aspectratio="16:9" data-autoplay="true" data-autoplayonlyfirsttime="false" data-nextslideatend="true"></div>
 							<!-- LAYER NR. 1 -->
-							<div class="tp-caption SlidingOverlays-Title   tp-resizeme rs-parallaxlevel-3" id="slide-696-layer-1" data-x="['center','center','center','center']" data-hoffset="['0','0','0','0']" data-y="['top','top','top','top']" data-voffset="['80','90','90','48']" data-fontsize="['50','40','45','40']" data-lineheight="['70','55','45','45']" data-width="['none','none','600','480']" data-height="['none','none','139','139']" data-whitespace="['nowrap','nowrap','normal','normal']" data-transform_idle="o:1;" data-transform_in="y:[100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;opacity:0;s:1500;e:Power2.easeInOut;" data-transform_out="y:[175%];s:1000;e:Power2.easeInOut;s:1000;e:Power2.easeInOut;" data-mask_in="x:0px;y:[100%];s:inherit;e:inherit;" data-mask_out="x:inherit;y:inherit;s:inherit;e:inherit;" data-start="1000" data-splitin="none" data-splitout="none" data-basealign="slide" data-responsive_offset="on" style="z-index: 5; white-space: nowrap; line-height: 70px;text-align:center;" data-textAlign="center">How about something really fancy?
+							<div class="tp-caption SlidingOverlays-Title   tp-resizeme rs-parallaxlevel-3" id="slide-696-layer-1" data-x="['center','center','center','center']" data-hoffset="['0','0','0','0']" data-y="['top','top','top','top']" data-voffset="['80','90','90','48']" data-fontsize="['50','40','45','40']" data-lineheight="['70','55','45','45']" data-width="['none','none','600','480']" data-height="['none','none','139','139']" data-whitespace="['nowrap','nowrap','normal','normal']" data-transform_idle="o:1;" data-transform_in="y:[100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;opacity:0;s:1500;e:Power2.easeInOut;" data-transform_out="y:[175%];s:1000;e:Power2.easeInOut;s:1000;e:Power2.easeInOut;" data-mask_in="x:0px;y:[100%];s:inherit;e:inherit;" data-mask_out="x:inherit;y:inherit;s:inherit;e:inherit;" data-start="1000" data-splitin="none" data-splitout="none" data-basealign="slide" data-responsive_offset="on" style="z-index: 5; white-space: nowrap; line-height: 70px;text-align:center;" data-textAlign="center">Experience the future of Riding
 							</div>
 
 							<!-- LAYER NR. 2 -->
@@ -305,7 +307,7 @@
 						<div class="col-lg-4 col-md-6 topmargin bottommargin-sm">
 
 							<div class="heading-block nobottomborder">
-								<h2 class="nott ls0" style="font-size: 44px; line-height: 1.2">Explore the New Mercedec Benz</h2>
+								<h2 class="nott ls0" style="font-size: 44px; line-height: 1.2">Explore the New <span>Davinci D2</span> </h2>
 							</div>
 							<span style="color: #BBB;">Eum nihil pretium quas aliqua, laboris ipsam diam congue natoque mollitia occaecati! Cubilia pede, numquam fringilla proident dis? Molestias repellat.<br><br>Quas perferendis urna, officiis necessitatibus deserunt recusandae urna ullamco hac do beatae cubilia iste dolorum, facilisi? Sit, hic, varius! Sollicitudin.<br><br>Nostrum feugiat beatae proident porro eleifend adipiscing nostrud aliquid sit.</span>
 							<div class="clear"></div>
@@ -876,7 +878,10 @@
 					}
 				});
 			}
+			$("#header1").load("./header.html");
 		}); /*ready*/
+
+		
 	</script>
 
 
