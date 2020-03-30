@@ -72,64 +72,23 @@
 
 		<!-- Header
 		============================================= -->
-		<header id="header" class="full-header" data-sticky-class="not-dark">
+		<div id="header1"></div><!-- #header end -->
 
-			<div id="header-wrap">
-
-				<div class="container clearfix">
-
-					<div id="primary-menu-trigger"><i class="icon-reorder"></i></div>
-
-					<div id="header-menu">
-					<!-- Logo
-					============================================= -->
-					<div id="logo">
-						<a href="Davinci landing page.html" class="standard-logo" data-dark-logo="images/logo-dark.png"><img src="Davinci image/logo.png" alt="Canvas Logo"></a>
-						<a href="Davinci landing page.html" class="retina-logo" data-dark-logo="images/logo-dark@2x.png"><img src="Davinci image/logo.png" alt="Canvas Logo"></a>
-					</div><!-- #logo end -->
-
-					<!-- Primary Navigation
-					============================================= -->
-					<nav id="primary-menu">
-						<div class="filler"></div>
-						<ul>
-							<li><a href="Dealers.html"><div>Dealership</div></a>
-							</li>
-
-							<li><a href="Investor.html"><div>Investor</div></a>
-							</li>
-
-							<li><a href="About Davinci.html"><div>About Davinci</div></a>
-							</li>
-
-							<li><a href="D club.html"><div>Join D Club</div></a>
-							</li>
-						</ul>
-						<div class="filler"></div>
-
-					</nav><!-- #Primary-Navigation end -->
-					</div>
-
-				</div>
-
-			</div>
-
-		</header><!-- #header end -->
-
-      	<!-- Investor
+      	<!-- Investor from about.html
 				============================================= -->
-				
-					<div class="row align-items-stretch clearfix">
-						<!-- Half Section 1 -->
-							<div class="col-padding clearfix">
-								<i class="i-plain i-xlarge icon-car-service inline-block" style="margin-bottom: 20px;"></i>
-								<div class="heading-block noborder" style="margin-bottom: 20px;">
-									<h3>We are finding investor!</h3>
+
+					<div class="container topmargin-lg">
+						<div class="row align-items-center justify-content-between">
+							<div class="col-lg-6">
+								<div class="heading-block nobottomborder mb-0">
+									<h2 class="capitalize t600 mb-2" style="font-size: 44px; letter-spacing: -1px">We are finding investor!</h2>
+									Davinci Technology is an early-stage venture dedicated to setting a new standard for electric motorcycle. If you are ready to help change the future of mobility and looking for an investment opportunity contact us below.</p>
 								</div>
-								<p>Davinci Technology is an early-stage venture dedicated to setting a new standard for electric motorcycle. If you are ready to help change the future of mobility and looking for an investment opportunity contact us below.
-								</p>
-								<a href="#" class="button button-rounded button-white button-light nomargin">contact</a>
+							
+							<div class="button button-xlarge button-rounded ml-2 ls0 nott t400">Contact Us</div>
+							
 							</div>
+						</div>
 					</div>
 				
 		<!-- #Investor end -->
@@ -305,7 +264,11 @@
 					}
 				});
 			}
+			$("#header1").load("./header.html");
+			$("#footer1").load("./footer.html");
 		}); /*ready*/
+
+		
 	</script>
         </body>
         </html>

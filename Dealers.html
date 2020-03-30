@@ -72,101 +72,55 @@
 
 		<!-- Header
 		============================================= -->
-		<header id="header" class="full-header" data-sticky-class="not-dark">
+		<div id="header1"></div><!-- #header end -->
 
-			<div id="header-wrap">
+		<!-- Content
+		============================================= -->
+		<div class="footer-widgets-wrap clearfix">
 
-				<div class="container clearfix">
+			<div class="col_two_fifth">
 
-					<div id="primary-menu-trigger"><i class="icon-reorder"></i></div>
+				
 
-					<div id="header-menu">
-					<!-- Logo
-					============================================= -->
-					<div id="logo">
-						<a href="Davinci landing page.html" class="standard-logo" data-dark-logo="images/logo-dark.png"><img src="Davinci image/logo.png" alt="Canvas Logo"></a>
-						<a href="Davinci landing page.html" class="retina-logo" data-dark-logo="images/logo-dark@2x.png"><img src="Davinci image/logo.png" alt="Canvas Logo"></a>
-					</div><!-- #logo end -->
+			</div>
 
-					<!-- Primary Navigation
-					============================================= -->
-					<nav id="primary-menu">
-						<div class="filler"></div>
-						<ul>
-							<li><a href="index.html"><div>Davinci D1</div></a>
-						
-							</li>
-							<li><a href="index.html"><div>Davinci D2</div></a>
-						
-						</ul>
-						<div class="filler"></div>
+			<div class="col_three_fifth col_last">
 
-						<!-- Top Cart
-						============================================= -->
-						<div id="top-cart">
-							<a href="#" id="top-cart-trigger"><i class="icon-github"></i><span>5</span></a>
-							<div class="top-cart-content">
-								<div class="top-cart-title">
-									<h4>Join D Club</h4> <i class="icon-twitter"></i> <i class="icon-linkedin"></i> <i class="icon-facebook"></i>
-								</div>
-								
-								<div class="top-cart-action clearfix">
-									<button class="button button-3d button-small nomargin fright">sign up</button>
-								</div>
-						
-						</div><!-- #top-cart end -->
+				<div class="col_half">
+					<div class="row clearfix">
 
-						
+						<h4 class="ls1 t400 uppercase">Popular Locations</h4>
 
-					</nav><!-- #primary-menu end -->
+						<div class="col-6 bottommargin-sm widget_links widget_real_estate_popular">
+							<ul>
+								<li><a href="#"><i class="icon-map-marker2"></i> California</a></li>
+								<li><a href="#"><i class="icon-map-marker2"></i> Nevada</a></li>
+								<li><a href="#"><i class="icon-map-marker2"></i> Hawaii</a></li>
+								<li><a href="#"><i class="icon-map-marker2"></i> Washington</a></li>
+								<li><a href="#"><i class="icon-map-marker2"></i> Ottawa</a></li>
+								<li><a href="#"><i class="icon-map-marker2"></i> Virginia</a></li>
+								<li><a href="#"><i class="icon-map-marker2"></i> Ohio</a></li>
+							</ul>
+						</div>
+					</div>
+				</div>
+
+				<div class="col_half col_last">
+					<h4 class="ls1 t400 uppercase">Become a dealer?</h4>
+				
+					<div class="widget subscribe-widget subscribe-form clearfix" data-loader="button">
+						<div class="widget-subscribe-form-result"></div>
+						<form action="../../include/subscribe.php" method="post" class="nobottommargin">
+							<input type="email" id="widget-subscribe-form-email" name="widget-subscribe-form-email" class="sm-form-control not-dark required email" placeholder="Enter your Email">
+							<button class="button button-3d button-black noleftmargin norightmargin" style="margin-top: 15px;" type="submit">Submit</button>
+						</form>
 					</div>
 
 				</div>
 
 			</div>
 
-		</header><!-- #header end -->
-
-
-		<!-- Content
-		============================================= -->
-		<section id="content">
-
-			<div class="content-wrap">
-
-				<div class="container clearfix">
-
-					<h3>Find a Dealer</h3>
-
-					<div class="col_one_third">
-						<div class="input-group input-group-lg">
-							<div class="input-group-prepend">
-								<div class="input-group-text"><i class="icon-map-marker"></i></div>
-							</div>
-							<input type="text" id="location-input" name="location-input" class="form-control" placeholder="Search for Location...">
-							<div class="input-group-append">
-								<button class="btn btn-secondary" id="location-submit" type="submit"><i class="icon-line-search"></i></button>
-							</div>
-						</div>
-
-						<p id="location-coordinates" style="display: none; margin-top: 10px;">
-							<small id="latitude-text"><em>Latitude:</em></small> &middot; <small id="longitude-text"><em>Longitude:</em></small>
-						</p>
-                    
-                    
-                    
-                    </div>
-                   
-					<div class="col_two_third col_last">
-
-						<div id="google-map" class="gmap" style="height: 400px;"></div>
-                        <div class="copyright-links"><a href="#">Become a Dealer</a> <text-align:right></text-align:right></div>
-					</div>
-
-                </div>
-                
-
-			</div>
+		</div>
 
 		</section><!-- #content end -->
         
@@ -185,7 +139,7 @@
 					<div class="col_half">
 						Copyrights &copy; 2014 All Rights Reserved by Davinci<br>
 						<div class="copyright-links"><a href="#">Terms of Use</a> / <a href="#">Privacy Policy</a></div>
-						 / <a href="About Davinci.html">About Davinci</a></div>
+						 
 					</div>
 
 					<div class="col_half col_last tright">
@@ -263,8 +217,7 @@
 	<script src="include/rs-plugin/js/extensions/revolution.extension.layeranimation.min.js"></script>
 	<script src="include/rs-plugin/js/extensions/revolution.extension.navigation.min.js"></script>
     <script src="include/rs-plugin/js/extensions/revolution.extension.parallax.min.js"></script>
-    <script src="https://maps.google.com/maps/api/js?key=AIzaSyCzkxzbEni5vR_Ugt1De8gBzrLX3236bnA"></script>
-	<script src="js/jquery.gmap.js"></script>
+    
 
 
 	<script>
@@ -346,96 +299,11 @@
 					}
 				});
 			}
+			$("#header1").load("./header.html");
+			$("#footer1").load("./footer.html");
 		}); /*ready*/
-        
-		function findLocation( selector, getLatitude, getLongitude ) {
-			jQuery(selector).gMap('addMarker', {
-				latitude: getLatitude,
-				longitude: getLongitude,
-				content: 'You have selected this Location.',
-				popup: true
-			}).gMap('centerAt', {
-				latitude: getLatitude,
-				longitude: getLongitude,
-				zoom: 12
-			});
-		}
 
-		jQuery('#google-map').gMap({
-
-			 address: 'Melbourne, Australia',
-			 maptype: 'ROADMAP',
-			 zoom: 12,
-			 markers: [
-				{
-					address: "Melbourne, Australia"
-				}
-			 ],
-			 doubleclickzoom: false,
-			 controls: {
-				 panControl: true,
-				 zoomControl: true,
-				 mapTypeControl: true,
-				 scaleControl: false,
-				 streetViewControl: false,
-				 overviewMapControl: false
-			 }
-
-		});
-
-		jQuery(window).on( 'load',  function(){
-
-			var t = setTimeout( function(){
-				if(navigator.geolocation) {
-					navigator.geolocation.getCurrentPosition(function(position) {
-						jQuery('#google-map').gMap('addMarker', {
-							latitude: position.coords.latitude,
-							longitude: position.coords.longitude,
-							content: 'You are here!',
-							popup: true
-						}).gMap('centerAt', {
-							latitude: position.coords.latitude,
-							longitude: position.coords.longitude,
-							zoom: 14
-						});
-					}, function() {
-						alert('Couldn\'t find you :(');
-					});
-				}
-			}, 200 );
-
-		});
-
-		jQuery('#location-submit').click( function(e){
-
-			var locationFinder = jQuery(this).parent().parent().find('#location-input').val();
-			var locationFinderIcon = jQuery(this).parent().parent().find('.input-group-text').find('i');
-
-			jQuery('#location-coordinates').fadeOut();
-
-			if( locationFinder != '' ){
-				locationFinderIcon.removeClass('icon-map-marker').addClass('icon-line-loader icon-spin');
-
-				jQuery.ajax({
-					url: 'https://maps.google.com/maps/api/geocode/json?address=' + encodeURI(locationFinder),
-					//force to handle it as text
-					dataType: "text",
-					success: function(data) {
-						var json = jQuery.parseJSON(data);
-						findLocation( '#google-map', json.results[0].geometry.location.lat, json.results[0].geometry.location.lng );
-						jQuery('#latitude-text').html('<strong>Latitude:</strong> ' + json.results[0].geometry.location.lat);
-						jQuery('#longitude-text').html('<strong>Longitude:</strong> ' + json.results[0].geometry.location.lng);
-						jQuery('#location-coordinates').fadeIn();
-						locationFinderIcon.removeClass('icon-line-loader icon-spin').addClass('icon-map-marker');
-					}
-				});
-			} else {
-				alert('Please enter your Location!');
-			}
-			e.preventDefault();
-		});
-
-
-    </script>
+		
+	</script>
         </body>
         </html>
