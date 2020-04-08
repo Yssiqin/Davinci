@@ -11763,8 +11763,8 @@ input[type=checkbox]:not(:checked) + label.error { display: block !important; }
 #pre-order {
 	z-index: 299;
 	position: fixed;
-	width: 100px;
-	height: 40px;
+	width: 115px;
+	height: 45px;
 	background-color: #cca441;
 	border-radius: 50px;
 	text-align: center;
