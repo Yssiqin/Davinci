@@ -11765,22 +11765,30 @@ input[type=checkbox]:not(:checked) + label.error { display: block !important; }
 	position: fixed;
 	width: 100px;
 	height: 40px;
-	font-size: 20px;
 	background-color: #cca441;
-	background-color: rgba(0,0,0,0.3);
-	font-size: 16px;
-	line-height: 36px;
+	border-radius: 50px;
 	text-align: center;
 	color: #FFF;
 	top: auto;
 	left: auto;
-	right: 90px;
+	right: 30px;
 	bottom: 50px;
 	cursor: pointer;
-	border-radius: 2px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
 }
 
-#pre-order a {color: white;}
+#pre-order a {
+
+	font-size: 16px;
+	line-height: 20px;
+	color: white;
+	font-weight: 700;
+	
+	}
+	white-space: nowrap;
+	transform: rotate(90deg);
 
 body:not(.device-touch) #gotoTop {
 	transition: background-color .2s linear;
@@ -11790,7 +11798,7 @@ body:not(.device-touch) #gotoTop {
 
 .stretched #gotoTop { bottom: 30px; }
 
-.stretched #pre-order { bottom: 30px; }
+.stretched #pre-order { bottom: 50px; }
 
 #gotoTop:hover, #pre-order:hover { background-color: #cca441; }
 
